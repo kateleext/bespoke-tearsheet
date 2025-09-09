@@ -46,6 +46,15 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: #39ff14;
+            position: relative;
+            padding-left: 0;
+        }
+        
+        h2::before {
+            content: ">";
+            position: absolute;
+            left: -20px;
+            color: #39ff14;
         }
         
         p {
