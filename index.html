@@ -109,7 +109,17 @@
         @media (max-width: 600px) {
             body {
                 padding: 20px 15px;
+                padding-left: 35px;
                 font-size: 13px;
+            }
+            
+            .ascii-header {
+                margin-left: -15px;
+                font-size: 8px;
+            }
+            
+            .tagline {
+                margin-left: -15px;
             }
             
             h1 {
@@ -118,6 +128,10 @@
             
             h2 {
                 font-size: 13px;
+            }
+            
+            h2::before {
+                left: -15px;
             }
         }
     </style>
